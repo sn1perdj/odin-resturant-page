@@ -1,0 +1,24 @@
+{
+    "name": "8_resturant-page",
+    "version": "1.0.0",
+    "description": "",
+    "private": true,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sn1perdj/odin-resturant-page.git"
+    },
+    "author": "sn1perdj",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sn1perdj/odin-resturant-page/issues"
+    },
+    "homepage": "https://github.com/sn1perdj/odin-resturant-page#readme",
+    "devDependencies": {
+        "webpack": "^5.79.0",
+        "webpack-cli": "^5.0.1"
+    }
+}
