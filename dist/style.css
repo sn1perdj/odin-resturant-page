@@ -176,3 +176,61 @@ h1 {
 .map img {
     max-width: 100%;
 }
+
+.menuSection {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.food__pic {
+    width: 65%;
+    height: 80%;
+}
+
+.food__pic > img {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.food__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.food__details > h3 {
+    margin-top: 10px;
+    color: var(--font-big);
+    font-size: 1.5rem;
+}
+
+.food__details > button {
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--font-big);
+    color: var(--white);
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.aboutSection {
+    margin-top: 100px;
+}
+
+.aboutSection > h1 {
+    color: var(--grey);
+    font-size: 50px;
+}
